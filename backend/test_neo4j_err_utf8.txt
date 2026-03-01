@@ -1,0 +1,46 @@
+﻿venv\Scripts\python.exe : Traceback (most 
+recent call last):
+At line:1 char:1
++ venv\Scripts\python.exe test_neo4j.py > 
+test_neo4j_err.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified:  
+   (Traceback (most recent call last)::Stri  
+  ng) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandE 
+   rror
+ 
+  File "D:\clunet_ai\backend\test_neo4j.py", 
+line 5, in <module>
+    from config import settings
+  File "D:\clunet_ai\backend\config.py", 
+line 24, in <module>
+    settings = Settings()
+  File "D:\clunet_ai\backend\venv\Lib\site-pa
+ckages\pydantic_settings\main.py", line 171, 
+in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        
+**__pydantic_self__._settings_build_values(
+        
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<25 lines>...
+        )
+        ^
+    )
+    ^
+  File "D:\clunet_ai\backend\venv\Lib\site-pa
+ckages\pydantic\main.py", line 214, in 
+__init__
+    validated_self = self.__pydantic_validato
+r__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError:
+ 1 validation error for Settings
+neo4j_username
+  Extra inputs are not permitted 
+[type=extra_forbidden, 
+input_value='eb848704', input_type=str]
+    For further information visit https://err
+ors.pydantic.dev/2.10/v/extra_forbidden

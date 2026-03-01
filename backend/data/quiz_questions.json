@@ -1,0 +1,470 @@
+[
+  {
+    "question_id": "svm_q1",
+    "concept_id": "svm",
+    "question_text": "What does an SVM optimize to find the decision boundary?",
+    "options": [
+      "The margin between support vectors and the hyperplane",
+      "The total distance of all points from the hyperplane",
+      "The loss function using backpropagation",
+      "The number of features in the dataset"
+    ],
+    "correct_answer": 0,
+    "difficulty": "medium",
+    "distractor_types": {
+      "1": "procedural",
+      "2": "transfer",
+      "3": "prerequisite_absence"
+    }
+  },
+  {
+    "question_id": "svm_q2",
+    "concept_id": "svm",
+    "question_text": "In the SVM dual formulation, what mathematical technique converts the constrained optimization problem?",
+    "options": [
+      "Newton's method",
+      "Lagrangian duality",
+      "Eigenvalue decomposition",
+      "Gradient clipping"
+    ],
+    "correct_answer": 1,
+    "difficulty": "hard",
+    "distractor_types": {
+      "0": "transfer",
+      "2": "prerequisite_absence",
+      "3": "procedural"
+    }
+  },
+  {
+    "question_id": "svm_q3",
+    "concept_id": "svm",
+    "question_text": "Which points in the training set determine the SVM decision boundary?",
+    "options": [
+      "All training points",
+      "Points closest to the class mean",
+      "Support vectors (points closest to the hyperplane)",
+      "Randomly selected anchor points"
+    ],
+    "correct_answer": 2,
+    "difficulty": "easy",
+    "distractor_types": {
+      "0": "conceptual",
+      "1": "conceptual",
+      "3": "prerequisite_absence"
+    }
+  },
+
+  {
+    "question_id": "lagrange_q1",
+    "concept_id": "lagrange_multipliers",
+    "question_text": "What is the purpose of the Lagrange multiplier lambda in constrained optimization?",
+    "options": [
+      "It scales the learning rate",
+      "It measures how much the constraint affects the optimal value",
+      "It represents the number of constraints",
+      "It computes the determinant of the Jacobian"
+    ],
+    "correct_answer": 1,
+    "difficulty": "medium",
+    "distractor_types": {
+      "0": "transfer",
+      "2": "conceptual",
+      "3": "prerequisite_absence"
+    }
+  },
+  {
+    "question_id": "lagrange_q2",
+    "concept_id": "lagrange_multipliers",
+    "question_text": "To find the minimum of f(x,y) subject to g(x,y) = 0, the Lagrangian method requires:",
+    "options": [
+      "Setting grad(f) = lambda * grad(g) and solving simultaneously",
+      "Substituting g into f and differentiating",
+      "Computing the Hessian of f",
+      "Finding eigenvalues of the constraint matrix"
+    ],
+    "correct_answer": 0,
+    "difficulty": "hard",
+    "distractor_types": {
+      "1": "procedural",
+      "2": "prerequisite_absence",
+      "3": "transfer"
+    }
+  },
+  {
+    "question_id": "lagrange_q3",
+    "concept_id": "lagrange_multipliers",
+    "question_text": "What prerequisite from calculus is essential for computing Lagrange multipliers?",
+    "options": [
+      "Integration by parts",
+      "Taylor series expansion",
+      "Partial derivatives and gradients",
+      "Fourier transforms"
+    ],
+    "correct_answer": 2,
+    "difficulty": "easy",
+    "distractor_types": {
+      "0": "prerequisite_absence",
+      "1": "transfer",
+      "3": "transfer"
+    }
+  },
+
+  {
+    "question_id": "gradient_q1",
+    "concept_id": "gradient_descent",
+    "question_text": "Why does gradient descent move in the direction of the negative gradient?",
+    "options": [
+      "Because the gradient points toward the maximum, and we want the minimum",
+      "Because negative values converge faster",
+      "Because the loss function is always negative",
+      "Because the learning rate must be negative"
+    ],
+    "correct_answer": 0,
+    "difficulty": "medium",
+    "distractor_types": {
+      "1": "conceptual",
+      "2": "conceptual",
+      "3": "procedural"
+    }
+  },
+  {
+    "question_id": "gradient_q2",
+    "concept_id": "gradient_descent",
+    "question_text": "What happens when the learning rate in gradient descent is too large?",
+    "options": [
+      "Training converges faster",
+      "The algorithm may overshoot the minimum and diverge",
+      "The gradient becomes zero",
+      "The model always overfits"
+    ],
+    "correct_answer": 1,
+    "difficulty": "easy",
+    "distractor_types": {
+      "0": "conceptual",
+      "2": "prerequisite_absence",
+      "3": "transfer"
+    }
+  },
+  {
+    "question_id": "gradient_q3",
+    "concept_id": "gradient_descent",
+    "question_text": "Stochastic Gradient Descent (SGD) differs from batch gradient descent by:",
+    "options": [
+      "Using a different loss function",
+      "Computing the gradient on a single (or mini-batch) sample instead of the full dataset",
+      "Using second-order derivatives",
+      "Requiring a convex loss function"
+    ],
+    "correct_answer": 1,
+    "difficulty": "medium",
+    "distractor_types": {
+      "0": "conceptual",
+      "2": "transfer",
+      "3": "prerequisite_absence"
+    }
+  },
+
+  {
+    "question_id": "kernel_q1",
+    "concept_id": "kernel_methods",
+    "question_text": "What is the kernel trick in machine learning?",
+    "options": [
+      "A method to reduce the number of features",
+      "Computing dot products in a high-dimensional space without explicit transformation",
+      "A regularization technique",
+      "A method for handling missing data"
+    ],
+    "correct_answer": 1,
+    "difficulty": "medium",
+    "distractor_types": {
+      "0": "conceptual",
+      "2": "transfer",
+      "3": "prerequisite_absence"
+    }
+  },
+  {
+    "question_id": "kernel_q2",
+    "concept_id": "kernel_methods",
+    "question_text": "The RBF (Gaussian) kernel maps input data to:",
+    "options": [
+      "A 2D space",
+      "A finite polynomial space",
+      "An infinite-dimensional feature space",
+      "The same input space"
+    ],
+    "correct_answer": 2,
+    "difficulty": "hard",
+    "distractor_types": {
+      "0": "conceptual",
+      "1": "procedural",
+      "3": "conceptual"
+    }
+  },
+
+  {
+    "question_id": "nn_q1",
+    "concept_id": "neural_networks",
+    "question_text": "What makes neural networks 'universal function approximators'?",
+    "options": [
+      "They can memorize any training set",
+      "A network with sufficient hidden units can approximate any continuous function",
+      "They use the most parameters of any model",
+      "They always achieve zero training loss"
+    ],
+    "correct_answer": 1,
+    "difficulty": "medium",
+    "distractor_types": {
+      "0": "conceptual",
+      "2": "conceptual",
+      "3": "conceptual"
+    }
+  },
+  {
+    "question_id": "nn_q2",
+    "concept_id": "neural_networks",
+    "question_text": "What is the role of the activation function in a neural network?",
+    "options": [
+      "It normalizes the input data",
+      "It introduces non-linearity, allowing the network to learn complex patterns",
+      "It reduces the number of parameters",
+      "It computes the loss function"
+    ],
+    "correct_answer": 1,
+    "difficulty": "easy",
+    "distractor_types": { "0": "transfer", "2": "conceptual", "3": "transfer" }
+  },
+  {
+    "question_id": "nn_q3",
+    "concept_id": "neural_networks",
+    "question_text": "A single neuron with a sigmoid activation function is equivalent to:",
+    "options": [
+      "A decision tree",
+      "Logistic regression",
+      "K-means clustering",
+      "Principal component analysis"
+    ],
+    "correct_answer": 1,
+    "difficulty": "medium",
+    "distractor_types": {
+      "0": "transfer",
+      "2": "transfer",
+      "3": "prerequisite_absence"
+    }
+  },
+
+  {
+    "question_id": "linreg_q1",
+    "concept_id": "linear_regression",
+    "question_text": "The normal equation for linear regression computes the optimal weights as:",
+    "options": [
+      "w = X * y",
+      "w = (X^T X)^(-1) X^T y",
+      "w = X^T * (y - Xw)",
+      "w = gradient of the loss"
+    ],
+    "correct_answer": 1,
+    "difficulty": "medium",
+    "distractor_types": {
+      "0": "procedural",
+      "2": "procedural",
+      "3": "conceptual"
+    }
+  },
+  {
+    "question_id": "linreg_q2",
+    "concept_id": "linear_regression",
+    "question_text": "What does the R-squared value measure in linear regression?",
+    "options": [
+      "The number of features used",
+      "The proportion of variance in the target explained by the model",
+      "The slope of the regression line",
+      "The training error"
+    ],
+    "correct_answer": 1,
+    "difficulty": "easy",
+    "distractor_types": {
+      "0": "prerequisite_absence",
+      "2": "procedural",
+      "3": "conceptual"
+    }
+  },
+
+  {
+    "question_id": "multivar_q1",
+    "concept_id": "multivar_calculus",
+    "question_text": "The gradient of a scalar function f(x,y,z) is:",
+    "options": [
+      "A scalar value",
+      "A vector of partial derivatives [df/dx, df/dy, df/dz]",
+      "The determinant of the Hessian",
+      "The integral of f over all variables"
+    ],
+    "correct_answer": 1,
+    "difficulty": "medium",
+    "distractor_types": {
+      "0": "conceptual",
+      "2": "prerequisite_absence",
+      "3": "transfer"
+    }
+  },
+  {
+    "question_id": "multivar_q2",
+    "concept_id": "multivar_calculus",
+    "question_text": "The Hessian matrix of a function contains:",
+    "options": [
+      "First-order partial derivatives",
+      "Second-order partial derivatives",
+      "The eigenvalues of the function",
+      "The Fourier coefficients"
+    ],
+    "correct_answer": 1,
+    "difficulty": "medium",
+    "distractor_types": {
+      "0": "procedural",
+      "2": "transfer",
+      "3": "prerequisite_absence"
+    }
+  },
+
+  {
+    "question_id": "eigen_q1",
+    "concept_id": "eigenvalues",
+    "question_text": "If Av = lambda*v, then v is called:",
+    "options": [
+      "The determinant of A",
+      "The inverse of A",
+      "An eigenvector of A with eigenvalue lambda",
+      "The rank of A"
+    ],
+    "correct_answer": 2,
+    "difficulty": "easy",
+    "distractor_types": {
+      "0": "prerequisite_absence",
+      "1": "prerequisite_absence",
+      "3": "conceptual"
+    }
+  },
+  {
+    "question_id": "eigen_q2",
+    "concept_id": "eigenvalues",
+    "question_text": "The characteristic polynomial of matrix A is obtained by computing:",
+    "options": ["det(A)", "det(A - lambda*I) = 0", "trace(A) = 0", "A^T * A"],
+    "correct_answer": 1,
+    "difficulty": "medium",
+    "distractor_types": {
+      "0": "procedural",
+      "2": "procedural",
+      "3": "prerequisite_absence"
+    }
+  },
+
+  {
+    "question_id": "backprop_q1",
+    "concept_id": "backpropagation",
+    "question_text": "Backpropagation computes gradients efficiently by:",
+    "options": [
+      "Trying random weight perturbations",
+      "Applying the chain rule of calculus through the computation graph",
+      "Using numerical differentiation",
+      "Computing the Hessian matrix"
+    ],
+    "correct_answer": 1,
+    "difficulty": "medium",
+    "distractor_types": {
+      "0": "conceptual",
+      "2": "procedural",
+      "3": "transfer"
+    }
+  },
+
+  {
+    "question_id": "pca_q1",
+    "concept_id": "pca",
+    "question_text": "PCA finds the directions of maximum variance by:",
+    "options": [
+      "Training a neural network",
+      "Computing eigenvectors of the covariance matrix",
+      "Applying gradient descent",
+      "Using k-means clustering"
+    ],
+    "correct_answer": 1,
+    "difficulty": "medium",
+    "distractor_types": { "0": "transfer", "2": "transfer", "3": "transfer" }
+  },
+
+  {
+    "question_id": "logreg_q1",
+    "concept_id": "logistic_regression",
+    "question_text": "The sigmoid function in logistic regression maps the output to:",
+    "options": [
+      "Any real number",
+      "A value between 0 and 1, interpretable as a probability",
+      "An integer class label",
+      "A vector of features"
+    ],
+    "correct_answer": 1,
+    "difficulty": "easy",
+    "distractor_types": {
+      "0": "conceptual",
+      "2": "procedural",
+      "3": "prerequisite_absence"
+    }
+  },
+
+  {
+    "question_id": "bias_var_q1",
+    "concept_id": "bias_variance",
+    "question_text": "A model with high bias and low variance is likely:",
+    "options": [
+      "Overfitting the training data",
+      "Underfitting the training data",
+      "Perfectly fitted",
+      "Regularized too little"
+    ],
+    "correct_answer": 1,
+    "difficulty": "easy",
+    "distractor_types": {
+      "0": "conceptual",
+      "2": "conceptual",
+      "3": "conceptual"
+    }
+  },
+
+  {
+    "question_id": "reg_q1",
+    "concept_id": "regularization",
+    "question_text": "L1 regularization (Lasso) tends to produce:",
+    "options": [
+      "Large weight values",
+      "Sparse weight vectors (many weights become exactly zero)",
+      "Negative weights only",
+      "Weights equal to the learning rate"
+    ],
+    "correct_answer": 1,
+    "difficulty": "medium",
+    "distractor_types": {
+      "0": "conceptual",
+      "2": "conceptual",
+      "3": "procedural"
+    }
+  },
+
+  {
+    "question_id": "dt_q1",
+    "concept_id": "decision_trees",
+    "question_text": "Information gain in a decision tree measures:",
+    "options": [
+      "The accuracy of the model",
+      "The reduction in entropy after splitting on a feature",
+      "The depth of the tree",
+      "The number of leaf nodes"
+    ],
+    "correct_answer": 1,
+    "difficulty": "medium",
+    "distractor_types": {
+      "0": "conceptual",
+      "2": "procedural",
+      "3": "prerequisite_absence"
+    }
+  }
+]

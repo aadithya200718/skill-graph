@@ -1,0 +1,75 @@
+{
+  "Machine Learning": {
+    "5": [
+      "linear_regression",
+      "logistic_regression",
+      "gradient_descent",
+      "regularization",
+      "bias_variance",
+      "decision_trees",
+      "ensemble_methods",
+      "cross_validation"
+    ],
+    "6": [
+      "kernel_methods",
+      "svm",
+      "pca",
+      "clustering",
+      "neural_networks",
+      "backpropagation"
+    ]
+  },
+  "Mathematics I": {
+    "1": [
+      "linear_equations",
+      "matrix_operations",
+      "determinants",
+      "vector_spaces",
+      "single_var_calculus"
+    ]
+  },
+  "Mathematics II": {
+    "2": [
+      "eigenvalues",
+      "multivar_calculus",
+      "probability_basics",
+      "statistics_basics",
+      "differential_equations"
+    ]
+  },
+  "Mathematics III": {
+    "3": [
+      "lagrange_multipliers",
+      "convex_optimization",
+      "linear_transforms",
+      "numerical_methods"
+    ]
+  },
+  "Data Structures": {
+    "3": ["data_structures_basics", "trees_graphs", "hashing"]
+  },
+  "Algorithms": {
+    "4": [
+      "sorting_searching",
+      "dynamic_programming",
+      "greedy_algorithms",
+      "graph_algorithms",
+      "complexity_theory"
+    ]
+  },
+  "Deep Learning": {
+    "7": [
+      "cnn",
+      "rnn_lstm",
+      "attention_mechanism",
+      "transformers",
+      "transfer_learning"
+    ]
+  },
+  "NLP": {
+    "7": ["word_embeddings", "text_classification"]
+  },
+  "Advanced ML": {
+    "8": ["gan", "reinforcement_learning", "graph_neural_networks"]
+  }
+}

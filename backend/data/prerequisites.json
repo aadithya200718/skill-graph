@@ -1,0 +1,1212 @@
+[
+  {
+    "from_concept": "matrix_operations",
+    "to_concept": "linear_equations",
+    "strength": 0.9,
+    "description": "Matrices represent systems of linear equations"
+  },
+  {
+    "from_concept": "determinants",
+    "to_concept": "matrix_operations",
+    "strength": 0.85,
+    "description": "Determinants are computed from matrices"
+  },
+  {
+    "from_concept": "determinants",
+    "to_concept": "linear_equations",
+    "strength": 0.6,
+    "description": "Cramer's rule uses determinants to solve linear systems"
+  },
+  {
+    "from_concept": "vector_spaces",
+    "to_concept": "linear_equations",
+    "strength": 0.8,
+    "description": "Solution sets of linear systems form vector spaces"
+  },
+  {
+    "from_concept": "vector_spaces",
+    "to_concept": "matrix_operations",
+    "strength": 0.7,
+    "description": "Matrices as linear maps between vector spaces"
+  },
+
+  {
+    "from_concept": "eigenvalues",
+    "to_concept": "matrix_operations",
+    "strength": 0.95,
+    "description": "Eigenvectors are properties of matrices"
+  },
+  {
+    "from_concept": "eigenvalues",
+    "to_concept": "determinants",
+    "strength": 0.8,
+    "description": "Characteristic polynomial uses determinants"
+  },
+  {
+    "from_concept": "eigenvalues",
+    "to_concept": "vector_spaces",
+    "strength": 0.7,
+    "description": "Eigenspaces are vector subspaces"
+  },
+  {
+    "from_concept": "multivar_calculus",
+    "to_concept": "single_var_calculus",
+    "strength": 0.95,
+    "description": "Partial derivatives extend single-variable derivatives"
+  },
+  {
+    "from_concept": "multivar_calculus",
+    "to_concept": "matrix_operations",
+    "strength": 0.8,
+    "description": "Jacobians and Hessians are matrices of partial derivatives"
+  },
+  {
+    "from_concept": "probability_basics",
+    "to_concept": "single_var_calculus",
+    "strength": 0.6,
+    "description": "Continuous distributions require integration"
+  },
+  {
+    "from_concept": "statistics_basics",
+    "to_concept": "probability_basics",
+    "strength": 0.9,
+    "description": "Statistical inference builds on probability theory"
+  },
+  {
+    "from_concept": "statistics_basics",
+    "to_concept": "multivar_calculus",
+    "strength": 0.5,
+    "description": "MLE requires optimization of likelihood functions"
+  },
+  {
+    "from_concept": "differential_equations",
+    "to_concept": "single_var_calculus",
+    "strength": 0.95,
+    "description": "ODEs are equations involving derivatives"
+  },
+  {
+    "from_concept": "differential_equations",
+    "to_concept": "matrix_operations",
+    "strength": 0.6,
+    "description": "Systems of ODEs use matrix exponentials"
+  },
+
+  {
+    "from_concept": "lagrange_multipliers",
+    "to_concept": "multivar_calculus",
+    "strength": 0.9,
+    "description": "Lagrangians require partial derivatives and gradient computation"
+  },
+  {
+    "from_concept": "lagrange_multipliers",
+    "to_concept": "eigenvalues",
+    "strength": 0.5,
+    "description": "Eigenvalue problems use similar optimization structure"
+  },
+  {
+    "from_concept": "convex_optimization",
+    "to_concept": "multivar_calculus",
+    "strength": 0.85,
+    "description": "Convexity analysis requires second-order derivatives"
+  },
+  {
+    "from_concept": "convex_optimization",
+    "to_concept": "lagrange_multipliers",
+    "strength": 0.8,
+    "description": "KKT conditions generalize Lagrange multipliers"
+  },
+  {
+    "from_concept": "linear_transforms",
+    "to_concept": "matrix_operations",
+    "strength": 0.9,
+    "description": "Linear transformations are represented as matrices"
+  },
+  {
+    "from_concept": "linear_transforms",
+    "to_concept": "vector_spaces",
+    "strength": 0.85,
+    "description": "Maps between vector spaces"
+  },
+  {
+    "from_concept": "numerical_methods",
+    "to_concept": "single_var_calculus",
+    "strength": 0.7,
+    "description": "Numerical integration and differentiation"
+  },
+  {
+    "from_concept": "numerical_methods",
+    "to_concept": "matrix_operations",
+    "strength": 0.6,
+    "description": "Matrix factorization methods"
+  },
+
+  {
+    "from_concept": "trees_graphs",
+    "to_concept": "data_structures_basics",
+    "strength": 0.85,
+    "description": "Trees and graphs build on basic data structure concepts"
+  },
+  {
+    "from_concept": "hashing",
+    "to_concept": "data_structures_basics",
+    "strength": 0.7,
+    "description": "Hash tables as an advanced data structure"
+  },
+
+  {
+    "from_concept": "sorting_searching",
+    "to_concept": "data_structures_basics",
+    "strength": 0.8,
+    "description": "Sorting operates on arrays and lists"
+  },
+  {
+    "from_concept": "sorting_searching",
+    "to_concept": "complexity_theory",
+    "strength": 0.7,
+    "description": "Analysis of sorting algorithms requires Big-O"
+  },
+  {
+    "from_concept": "dynamic_programming",
+    "to_concept": "sorting_searching",
+    "strength": 0.5,
+    "description": "DP often uses sorted or indexed structures"
+  },
+  {
+    "from_concept": "dynamic_programming",
+    "to_concept": "trees_graphs",
+    "strength": 0.6,
+    "description": "Many DP problems involve tree or DAG structures"
+  },
+  {
+    "from_concept": "greedy_algorithms",
+    "to_concept": "sorting_searching",
+    "strength": 0.7,
+    "description": "Greedy often requires sorted input"
+  },
+  {
+    "from_concept": "greedy_algorithms",
+    "to_concept": "trees_graphs",
+    "strength": 0.6,
+    "description": "MST algorithms work on graphs"
+  },
+  {
+    "from_concept": "graph_algorithms",
+    "to_concept": "trees_graphs",
+    "strength": 0.9,
+    "description": "Graph algorithms operate on graph data structures"
+  },
+  {
+    "from_concept": "graph_algorithms",
+    "to_concept": "dynamic_programming",
+    "strength": 0.5,
+    "description": "Shortest path algorithms use DP principles"
+  },
+  {
+    "from_concept": "complexity_theory",
+    "to_concept": "data_structures_basics",
+    "strength": 0.6,
+    "description": "Complexity analysis of data structure operations"
+  },
+
+  {
+    "from_concept": "linear_regression",
+    "to_concept": "multivar_calculus",
+    "strength": 0.8,
+    "description": "Least squares minimization requires derivatives"
+  },
+  {
+    "from_concept": "linear_regression",
+    "to_concept": "matrix_operations",
+    "strength": 0.85,
+    "description": "Normal equation uses matrix inverse"
+  },
+  {
+    "from_concept": "linear_regression",
+    "to_concept": "statistics_basics",
+    "strength": 0.7,
+    "description": "Regression assumptions come from statistics"
+  },
+  {
+    "from_concept": "logistic_regression",
+    "to_concept": "linear_regression",
+    "strength": 0.7,
+    "description": "Logistic regression extends linear regression to classification"
+  },
+  {
+    "from_concept": "logistic_regression",
+    "to_concept": "probability_basics",
+    "strength": 0.8,
+    "description": "Sigmoid outputs probabilities"
+  },
+  {
+    "from_concept": "logistic_regression",
+    "to_concept": "gradient_descent",
+    "strength": 0.7,
+    "description": "No closed-form solution, trained via gradient descent"
+  },
+  {
+    "from_concept": "gradient_descent",
+    "to_concept": "multivar_calculus",
+    "strength": 0.95,
+    "description": "Gradient requires partial derivatives of the loss function"
+  },
+  {
+    "from_concept": "gradient_descent",
+    "to_concept": "linear_regression",
+    "strength": 0.5,
+    "description": "Often introduced in the context of linear regression"
+  },
+  {
+    "from_concept": "regularization",
+    "to_concept": "linear_regression",
+    "strength": 0.8,
+    "description": "Regularization adds penalty to regression loss"
+  },
+  {
+    "from_concept": "regularization",
+    "to_concept": "gradient_descent",
+    "strength": 0.6,
+    "description": "Regularized loss changes gradient computation"
+  },
+  {
+    "from_concept": "bias_variance",
+    "to_concept": "linear_regression",
+    "strength": 0.7,
+    "description": "Demonstrated through polynomial regression examples"
+  },
+  {
+    "from_concept": "bias_variance",
+    "to_concept": "statistics_basics",
+    "strength": 0.6,
+    "description": "Variance and bias are statistical concepts"
+  },
+  {
+    "from_concept": "decision_trees",
+    "to_concept": "probability_basics",
+    "strength": 0.6,
+    "description": "Information gain uses entropy from probability"
+  },
+  {
+    "from_concept": "decision_trees",
+    "to_concept": "data_structures_basics",
+    "strength": 0.5,
+    "description": "Trees as data structures"
+  },
+  {
+    "from_concept": "ensemble_methods",
+    "to_concept": "decision_trees",
+    "strength": 0.9,
+    "description": "Random Forest and Boosting use decision trees as base learners"
+  },
+  {
+    "from_concept": "ensemble_methods",
+    "to_concept": "bias_variance",
+    "strength": 0.7,
+    "description": "Bagging reduces variance, boosting reduces bias"
+  },
+  {
+    "from_concept": "cross_validation",
+    "to_concept": "statistics_basics",
+    "strength": 0.7,
+    "description": "Validation is a statistical evaluation technique"
+  },
+  {
+    "from_concept": "cross_validation",
+    "to_concept": "bias_variance",
+    "strength": 0.6,
+    "description": "CV estimates generalization error related to bias-variance"
+  },
+
+  {
+    "from_concept": "svm",
+    "to_concept": "lagrange_multipliers",
+    "strength": 0.95,
+    "description": "SVM optimization is formulated as a Lagrangian dual problem"
+  },
+  {
+    "from_concept": "svm",
+    "to_concept": "kernel_methods",
+    "strength": 0.9,
+    "description": "SVMs use kernel trick for non-linear separation"
+  },
+  {
+    "from_concept": "svm",
+    "to_concept": "gradient_descent",
+    "strength": 0.7,
+    "description": "SGD used for SVM training in practice"
+  },
+  {
+    "from_concept": "svm",
+    "to_concept": "convex_optimization",
+    "strength": 0.8,
+    "description": "SVM is a convex optimization problem"
+  },
+  {
+    "from_concept": "kernel_methods",
+    "to_concept": "linear_regression",
+    "strength": 0.6,
+    "description": "Kernels generalize linear models to non-linear spaces"
+  },
+  {
+    "from_concept": "kernel_methods",
+    "to_concept": "linear_transforms",
+    "strength": 0.7,
+    "description": "Kernel functions define implicit feature space mappings"
+  },
+  {
+    "from_concept": "pca",
+    "to_concept": "eigenvalues",
+    "strength": 0.95,
+    "description": "PCA projects onto eigenvectors of the covariance matrix"
+  },
+  {
+    "from_concept": "pca",
+    "to_concept": "statistics_basics",
+    "strength": 0.7,
+    "description": "PCA uses covariance and variance concepts"
+  },
+  {
+    "from_concept": "pca",
+    "to_concept": "linear_transforms",
+    "strength": 0.6,
+    "description": "PCA is a linear transformation to a lower-dimensional space"
+  },
+  {
+    "from_concept": "clustering",
+    "to_concept": "linear_regression",
+    "strength": 0.4,
+    "description": "Distance metrics extend from linear algebra concepts"
+  },
+  {
+    "from_concept": "clustering",
+    "to_concept": "gradient_descent",
+    "strength": 0.5,
+    "description": "K-Means uses iterative optimization similar to gradient descent"
+  },
+  {
+    "from_concept": "neural_networks",
+    "to_concept": "logistic_regression",
+    "strength": 0.8,
+    "description": "A single neuron is a logistic regression unit"
+  },
+  {
+    "from_concept": "neural_networks",
+    "to_concept": "gradient_descent",
+    "strength": 0.9,
+    "description": "Neural networks are trained via gradient descent on the loss function"
+  },
+  {
+    "from_concept": "neural_networks",
+    "to_concept": "linear_transforms",
+    "strength": 0.7,
+    "description": "Each layer applies a linear transformation followed by activation"
+  },
+  {
+    "from_concept": "backpropagation",
+    "to_concept": "neural_networks",
+    "strength": 0.95,
+    "description": "Backprop is the training algorithm for neural networks"
+  },
+  {
+    "from_concept": "backpropagation",
+    "to_concept": "multivar_calculus",
+    "strength": 0.9,
+    "description": "Chain rule of calculus applied to computation graphs"
+  },
+
+  {
+    "from_concept": "cnn",
+    "to_concept": "neural_networks",
+    "strength": 0.9,
+    "description": "CNNs are neural networks with convolutional layers"
+  },
+  {
+    "from_concept": "cnn",
+    "to_concept": "backpropagation",
+    "strength": 0.8,
+    "description": "CNNs trained via backpropagation through conv layers"
+  },
+  {
+    "from_concept": "cnn",
+    "to_concept": "linear_transforms",
+    "strength": 0.5,
+    "description": "Convolution is a special type of linear operation"
+  },
+  {
+    "from_concept": "rnn_lstm",
+    "to_concept": "neural_networks",
+    "strength": 0.9,
+    "description": "RNNs extend neural networks with recurrent connections"
+  },
+  {
+    "from_concept": "rnn_lstm",
+    "to_concept": "backpropagation",
+    "strength": 0.85,
+    "description": "BPTT is backpropagation through time for sequences"
+  },
+  {
+    "from_concept": "attention_mechanism",
+    "to_concept": "rnn_lstm",
+    "strength": 0.7,
+    "description": "Attention was introduced to improve RNN sequence-to-sequence models"
+  },
+  {
+    "from_concept": "attention_mechanism",
+    "to_concept": "matrix_operations",
+    "strength": 0.8,
+    "description": "Attention uses matrix multiplication for query-key-value computation"
+  },
+  {
+    "from_concept": "transformers",
+    "to_concept": "attention_mechanism",
+    "strength": 0.95,
+    "description": "Transformers are built entirely on self-attention"
+  },
+  {
+    "from_concept": "transformers",
+    "to_concept": "neural_networks",
+    "strength": 0.8,
+    "description": "Transformers are a type of neural network architecture"
+  },
+  {
+    "from_concept": "transfer_learning",
+    "to_concept": "neural_networks",
+    "strength": 0.8,
+    "description": "Transfer learning uses pre-trained neural network weights"
+  },
+  {
+    "from_concept": "transfer_learning",
+    "to_concept": "cnn",
+    "strength": 0.7,
+    "description": "Most common in computer vision with pre-trained CNNs"
+  },
+
+  {
+    "from_concept": "word_embeddings",
+    "to_concept": "neural_networks",
+    "strength": 0.7,
+    "description": "Word2Vec uses shallow neural networks"
+  },
+  {
+    "from_concept": "word_embeddings",
+    "to_concept": "linear_transforms",
+    "strength": 0.6,
+    "description": "Embeddings are learned linear mappings"
+  },
+  {
+    "from_concept": "text_classification",
+    "to_concept": "logistic_regression",
+    "strength": 0.6,
+    "description": "Simple text classifiers use logistic regression"
+  },
+  {
+    "from_concept": "text_classification",
+    "to_concept": "word_embeddings",
+    "strength": 0.8,
+    "description": "Modern classifiers use word embeddings as input"
+  },
+
+  {
+    "from_concept": "gan",
+    "to_concept": "neural_networks",
+    "strength": 0.9,
+    "description": "GANs consist of two competing neural networks"
+  },
+  {
+    "from_concept": "gan",
+    "to_concept": "backpropagation",
+    "strength": 0.85,
+    "description": "Both generator and discriminator trained via backpropagation"
+  },
+  {
+    "from_concept": "gan",
+    "to_concept": "gradient_descent",
+    "strength": 0.7,
+    "description": "Minimax optimization using gradient-based methods"
+  },
+  {
+    "from_concept": "reinforcement_learning",
+    "to_concept": "probability_basics",
+    "strength": 0.8,
+    "description": "RL uses Markov decision processes and probability"
+  },
+  {
+    "from_concept": "reinforcement_learning",
+    "to_concept": "dynamic_programming",
+    "strength": 0.7,
+    "description": "Value iteration and policy iteration are DP algorithms"
+  },
+  {
+    "from_concept": "reinforcement_learning",
+    "to_concept": "neural_networks",
+    "strength": 0.7,
+    "description": "Deep RL uses neural networks for function approximation"
+  },
+  {
+    "from_concept": "graph_neural_networks",
+    "to_concept": "neural_networks",
+    "strength": 0.85,
+    "description": "GNNs extend neural networks to graph-structured data"
+  },
+  {
+    "from_concept": "graph_neural_networks",
+    "to_concept": "trees_graphs",
+    "strength": 0.8,
+    "description": "Operates on graph data structures"
+  },
+  {
+    "from_concept": "graph_neural_networks",
+    "to_concept": "attention_mechanism",
+    "strength": 0.6,
+    "description": "Graph attention networks use attention between nodes"
+  },
+
+  {
+    "from_concept": "pca",
+    "to_concept": "matrix_operations",
+    "strength": 0.85,
+    "description": "PCA uses matrix decomposition (SVD, eigen-decomposition)"
+  },
+  {
+    "from_concept": "clustering",
+    "to_concept": "statistics_basics",
+    "strength": 0.6,
+    "description": "Cluster evaluation uses statistical measures"
+  },
+  {
+    "from_concept": "clustering",
+    "to_concept": "pca",
+    "strength": 0.4,
+    "description": "PCA for dimensionality reduction before clustering"
+  },
+  {
+    "from_concept": "svm",
+    "to_concept": "linear_regression",
+    "strength": 0.5,
+    "description": "SVM regression extends linear regression with margin constraints"
+  },
+  {
+    "from_concept": "neural_networks",
+    "to_concept": "matrix_operations",
+    "strength": 0.85,
+    "description": "Forward pass is matrix multiplication of weights and inputs"
+  },
+  {
+    "from_concept": "neural_networks",
+    "to_concept": "regularization",
+    "strength": 0.6,
+    "description": "Dropout and weight decay are neural network regularization"
+  },
+  {
+    "from_concept": "backpropagation",
+    "to_concept": "gradient_descent",
+    "strength": 0.85,
+    "description": "Backprop computes gradients that gradient descent uses to update weights"
+  },
+  {
+    "from_concept": "cnn",
+    "to_concept": "matrix_operations",
+    "strength": 0.6,
+    "description": "Convolution as matrix multiplication via im2col"
+  },
+  {
+    "from_concept": "rnn_lstm",
+    "to_concept": "gradient_descent",
+    "strength": 0.7,
+    "description": "RNNs trained with gradient-based optimization"
+  },
+  {
+    "from_concept": "rnn_lstm",
+    "to_concept": "linear_transforms",
+    "strength": 0.5,
+    "description": "Hidden state updates involve linear transformations"
+  },
+  {
+    "from_concept": "attention_mechanism",
+    "to_concept": "neural_networks",
+    "strength": 0.75,
+    "description": "Attention is a neural network component"
+  },
+  {
+    "from_concept": "attention_mechanism",
+    "to_concept": "probability_basics",
+    "strength": 0.6,
+    "description": "Softmax attention scores as probability distributions"
+  },
+  {
+    "from_concept": "transformers",
+    "to_concept": "matrix_operations",
+    "strength": 0.7,
+    "description": "Multi-head attention involves batched matrix multiplications"
+  },
+  {
+    "from_concept": "transformers",
+    "to_concept": "backpropagation",
+    "strength": 0.75,
+    "description": "Transformer training via backpropagation through the entire architecture"
+  },
+  {
+    "from_concept": "transfer_learning",
+    "to_concept": "backpropagation",
+    "strength": 0.6,
+    "description": "Fine-tuning uses backpropagation on pre-trained weights"
+  },
+  {
+    "from_concept": "word_embeddings",
+    "to_concept": "probability_basics",
+    "strength": 0.5,
+    "description": "Negative sampling uses probability distributions"
+  },
+  {
+    "from_concept": "word_embeddings",
+    "to_concept": "gradient_descent",
+    "strength": 0.6,
+    "description": "Embedding vectors learned via gradient descent"
+  },
+  {
+    "from_concept": "text_classification",
+    "to_concept": "neural_networks",
+    "strength": 0.7,
+    "description": "Deep text classifiers use neural network architectures"
+  },
+  {
+    "from_concept": "text_classification",
+    "to_concept": "rnn_lstm",
+    "strength": 0.6,
+    "description": "Sequence classification using LSTMs"
+  },
+  {
+    "from_concept": "gan",
+    "to_concept": "probability_basics",
+    "strength": 0.7,
+    "description": "GANs learn to approximate probability distributions"
+  },
+  {
+    "from_concept": "gan",
+    "to_concept": "convex_optimization",
+    "strength": 0.5,
+    "description": "Minimax game theory connects to optimization"
+  },
+  {
+    "from_concept": "reinforcement_learning",
+    "to_concept": "gradient_descent",
+    "strength": 0.65,
+    "description": "Policy gradient methods use gradient-based optimization"
+  },
+  {
+    "from_concept": "reinforcement_learning",
+    "to_concept": "statistics_basics",
+    "strength": 0.5,
+    "description": "Reward estimation uses statistical sampling"
+  },
+  {
+    "from_concept": "graph_neural_networks",
+    "to_concept": "backpropagation",
+    "strength": 0.7,
+    "description": "GNNs trained via backpropagation on graph-structured loss"
+  },
+  {
+    "from_concept": "graph_neural_networks",
+    "to_concept": "matrix_operations",
+    "strength": 0.65,
+    "description": "Message passing involves adjacency matrix multiplication"
+  },
+  {
+    "from_concept": "logistic_regression",
+    "to_concept": "statistics_basics",
+    "strength": 0.6,
+    "description": "Maximum likelihood estimation for parameter fitting"
+  },
+  {
+    "from_concept": "logistic_regression",
+    "to_concept": "multivar_calculus",
+    "strength": 0.65,
+    "description": "Cross-entropy loss gradient requires calculus"
+  },
+  {
+    "from_concept": "decision_trees",
+    "to_concept": "statistics_basics",
+    "strength": 0.55,
+    "description": "Gini impurity and information gain from statistics"
+  },
+  {
+    "from_concept": "decision_trees",
+    "to_concept": "sorting_searching",
+    "strength": 0.4,
+    "description": "Feature thresholds require sorted comparisons"
+  },
+  {
+    "from_concept": "ensemble_methods",
+    "to_concept": "probability_basics",
+    "strength": 0.5,
+    "description": "Bagging uses bootstrap sampling from probability"
+  },
+  {
+    "from_concept": "ensemble_methods",
+    "to_concept": "gradient_descent",
+    "strength": 0.65,
+    "description": "Gradient boosting minimizes loss via gradient descent on residuals"
+  },
+  {
+    "from_concept": "cross_validation",
+    "to_concept": "probability_basics",
+    "strength": 0.5,
+    "description": "Stratified splits maintain class probability ratios"
+  },
+  {
+    "from_concept": "cross_validation",
+    "to_concept": "linear_regression",
+    "strength": 0.55,
+    "description": "CV commonly demonstrated on regression models"
+  },
+  {
+    "from_concept": "regularization",
+    "to_concept": "convex_optimization",
+    "strength": 0.5,
+    "description": "L1 regularization creates convex but non-smooth optimization"
+  },
+  {
+    "from_concept": "regularization",
+    "to_concept": "statistics_basics",
+    "strength": 0.55,
+    "description": "Bayesian interpretation of regularization as prior"
+  },
+  {
+    "from_concept": "bias_variance",
+    "to_concept": "probability_basics",
+    "strength": 0.5,
+    "description": "Bias-variance decomposition uses expected value from probability"
+  },
+  {
+    "from_concept": "bias_variance",
+    "to_concept": "cross_validation",
+    "strength": 0.55,
+    "description": "CV quantifies the bias-variance tradeoff empirically"
+  },
+  {
+    "from_concept": "linear_transforms",
+    "to_concept": "eigenvalues",
+    "strength": 0.75,
+    "description": "Eigenvectors reveal the principal axes of linear transformations"
+  },
+  {
+    "from_concept": "linear_transforms",
+    "to_concept": "determinants",
+    "strength": 0.6,
+    "description": "Determinant measures volume change under linear transformation"
+  },
+  {
+    "from_concept": "numerical_methods",
+    "to_concept": "differential_equations",
+    "strength": 0.7,
+    "description": "Euler and Runge-Kutta methods solve ODEs numerically"
+  },
+  {
+    "from_concept": "numerical_methods",
+    "to_concept": "eigenvalues",
+    "strength": 0.55,
+    "description": "Power iteration and QR algorithm compute eigenvalues"
+  },
+  {
+    "from_concept": "differential_equations",
+    "to_concept": "eigenvalues",
+    "strength": 0.5,
+    "description": "Eigenvalues determine stability of ODE systems"
+  },
+  {
+    "from_concept": "differential_equations",
+    "to_concept": "linear_transforms",
+    "strength": 0.45,
+    "description": "Linear ODEs involve matrix exponentials"
+  },
+  {
+    "from_concept": "convex_optimization",
+    "to_concept": "matrix_operations",
+    "strength": 0.6,
+    "description": "Semidefinite programming uses positive definite matrices"
+  },
+  {
+    "from_concept": "convex_optimization",
+    "to_concept": "gradient_descent",
+    "strength": 0.75,
+    "description": "Gradient descent converges for convex objectives"
+  },
+  {
+    "from_concept": "lagrange_multipliers",
+    "to_concept": "linear_transforms",
+    "strength": 0.45,
+    "description": "Constraint Jacobians are linear maps"
+  },
+  {
+    "from_concept": "graph_algorithms",
+    "to_concept": "complexity_theory",
+    "strength": 0.6,
+    "description": "Graph algorithm time complexity analysis"
+  },
+  {
+    "from_concept": "graph_algorithms",
+    "to_concept": "greedy_algorithms",
+    "strength": 0.65,
+    "description": "Dijkstra and Prim use greedy strategy"
+  },
+  {
+    "from_concept": "hashing",
+    "to_concept": "complexity_theory",
+    "strength": 0.5,
+    "description": "Average-case analysis of hash table operations"
+  },
+  {
+    "from_concept": "hashing",
+    "to_concept": "probability_basics",
+    "strength": 0.4,
+    "description": "Hash collision probability analysis"
+  },
+  {
+    "from_concept": "dynamic_programming",
+    "to_concept": "complexity_theory",
+    "strength": 0.6,
+    "description": "DP reduces exponential to polynomial time complexity"
+  },
+  {
+    "from_concept": "greedy_algorithms",
+    "to_concept": "complexity_theory",
+    "strength": 0.55,
+    "description": "Greedy algorithms often achieve optimal time complexity"
+  },
+  {
+    "from_concept": "trees_graphs",
+    "to_concept": "complexity_theory",
+    "strength": 0.5,
+    "description": "Tree traversal and graph search time complexity"
+  },
+  {
+    "from_concept": "pca",
+    "to_concept": "multivar_calculus",
+    "strength": 0.5,
+    "description": "Variance maximization formulation uses calculus"
+  },
+  {
+    "from_concept": "clustering",
+    "to_concept": "probability_basics",
+    "strength": 0.5,
+    "description": "Gaussian mixture models use probability distributions"
+  },
+  {
+    "from_concept": "svm",
+    "to_concept": "regularization",
+    "strength": 0.55,
+    "description": "C parameter in SVM controls regularization strength"
+  },
+  {
+    "from_concept": "svm",
+    "to_concept": "statistics_basics",
+    "strength": 0.4,
+    "description": "SVM generalization bounds from statistical learning theory"
+  },
+  {
+    "from_concept": "kernel_methods",
+    "to_concept": "multivar_calculus",
+    "strength": 0.5,
+    "description": "RBF kernel uses exponential of squared distance"
+  },
+  {
+    "from_concept": "kernel_methods",
+    "to_concept": "eigenvalues",
+    "strength": 0.55,
+    "description": "Mercer's theorem relates kernels to eigendecomposition"
+  },
+  {
+    "from_concept": "neural_networks",
+    "to_concept": "probability_basics",
+    "strength": 0.55,
+    "description": "Softmax output layer produces probability distributions"
+  },
+  {
+    "from_concept": "neural_networks",
+    "to_concept": "statistics_basics",
+    "strength": 0.45,
+    "description": "Loss functions derived from statistical principles"
+  },
+  {
+    "from_concept": "backpropagation",
+    "to_concept": "linear_transforms",
+    "strength": 0.5,
+    "description": "Jacobian of each layer is a linear map for gradient flow"
+  },
+  {
+    "from_concept": "cnn",
+    "to_concept": "pca",
+    "strength": 0.35,
+    "description": "Feature extraction in CNNs analogous to PCA dimensionality reduction"
+  },
+  {
+    "from_concept": "rnn_lstm",
+    "to_concept": "probability_basics",
+    "strength": 0.45,
+    "description": "Language models output next-token probability distributions"
+  },
+  {
+    "from_concept": "rnn_lstm",
+    "to_concept": "matrix_operations",
+    "strength": 0.6,
+    "description": "Gate computations involve matrix multiplications"
+  },
+  {
+    "from_concept": "transformers",
+    "to_concept": "word_embeddings",
+    "strength": 0.65,
+    "description": "Transformers use token embeddings as input representations"
+  },
+  {
+    "from_concept": "transformers",
+    "to_concept": "linear_transforms",
+    "strength": 0.55,
+    "description": "Feedforward layers in transformers are linear transformations"
+  },
+  {
+    "from_concept": "transfer_learning",
+    "to_concept": "transformers",
+    "strength": 0.7,
+    "description": "Modern transfer learning uses pre-trained transformer models"
+  },
+  {
+    "from_concept": "transfer_learning",
+    "to_concept": "regularization",
+    "strength": 0.45,
+    "description": "Fine-tuning with low learning rate as implicit regularization"
+  },
+  {
+    "from_concept": "text_classification",
+    "to_concept": "transformers",
+    "strength": 0.65,
+    "description": "BERT and GPT used for text classification tasks"
+  },
+  {
+    "from_concept": "text_classification",
+    "to_concept": "cross_validation",
+    "strength": 0.45,
+    "description": "Model selection for text classifiers via cross-validation"
+  },
+  {
+    "from_concept": "gan",
+    "to_concept": "cnn",
+    "strength": 0.65,
+    "description": "DCGAN uses convolutional layers for image generation"
+  },
+  {
+    "from_concept": "gan",
+    "to_concept": "regularization",
+    "strength": 0.4,
+    "description": "Spectral normalization and gradient penalty as GAN regularization"
+  },
+  {
+    "from_concept": "reinforcement_learning",
+    "to_concept": "graph_algorithms",
+    "strength": 0.4,
+    "description": "MDP state transition graphs traversed by RL algorithms"
+  },
+  {
+    "from_concept": "reinforcement_learning",
+    "to_concept": "convex_optimization",
+    "strength": 0.4,
+    "description": "Linear programming for solving MDPs"
+  },
+  {
+    "from_concept": "graph_neural_networks",
+    "to_concept": "graph_algorithms",
+    "strength": 0.6,
+    "description": "Message passing inspired by graph algorithm traversal patterns"
+  },
+  {
+    "from_concept": "graph_neural_networks",
+    "to_concept": "linear_transforms",
+    "strength": 0.55,
+    "description": "Node feature transformation via learned linear layers"
+  },
+  {
+    "from_concept": "word_embeddings",
+    "to_concept": "matrix_operations",
+    "strength": 0.55,
+    "description": "Embedding matrices store vector representations in rows"
+  },
+  {
+    "from_concept": "word_embeddings",
+    "to_concept": "statistics_basics",
+    "strength": 0.4,
+    "description": "Co-occurrence statistics used in GloVe embeddings"
+  },
+  {
+    "from_concept": "linear_regression",
+    "to_concept": "probability_basics",
+    "strength": 0.55,
+    "description": "Probabilistic interpretation via Gaussian noise assumption"
+  },
+  {
+    "from_concept": "linear_regression",
+    "to_concept": "eigenvalues",
+    "strength": 0.45,
+    "description": "PCA regression uses eigendecomposition of covariance"
+  },
+  {
+    "from_concept": "gradient_descent",
+    "to_concept": "convex_optimization",
+    "strength": 0.6,
+    "description": "Convergence guarantees for convex objectives"
+  },
+  {
+    "from_concept": "gradient_descent",
+    "to_concept": "matrix_operations",
+    "strength": 0.55,
+    "description": "Batch gradient descent involves matrix-vector products"
+  },
+  {
+    "from_concept": "probability_basics",
+    "to_concept": "data_structures_basics",
+    "strength": 0.3,
+    "description": "Implementing probability distributions requires basic data structures"
+  },
+  {
+    "from_concept": "statistics_basics",
+    "to_concept": "single_var_calculus",
+    "strength": 0.55,
+    "description": "MLE and hypothesis testing use integration and derivatives"
+  },
+  {
+    "from_concept": "multivar_calculus",
+    "to_concept": "linear_equations",
+    "strength": 0.5,
+    "description": "Linearization of nonlinear systems via Taylor expansion"
+  },
+  {
+    "from_concept": "eigenvalues",
+    "to_concept": "linear_equations",
+    "strength": 0.6,
+    "description": "Characteristic equation is a system of linear equations"
+  },
+  {
+    "from_concept": "vector_spaces",
+    "to_concept": "single_var_calculus",
+    "strength": 0.35,
+    "description": "Function spaces as infinite-dimensional vector spaces"
+  },
+  {
+    "from_concept": "sorting_searching",
+    "to_concept": "trees_graphs",
+    "strength": 0.55,
+    "description": "Binary search trees combine sorting with tree structure"
+  },
+  {
+    "from_concept": "dynamic_programming",
+    "to_concept": "data_structures_basics",
+    "strength": 0.55,
+    "description": "Memoization tables stored in arrays and hash maps"
+  },
+  {
+    "from_concept": "greedy_algorithms",
+    "to_concept": "data_structures_basics",
+    "strength": 0.45,
+    "description": "Priority queues used in greedy algorithms like Dijkstra"
+  },
+  {
+    "from_concept": "graph_algorithms",
+    "to_concept": "hashing",
+    "strength": 0.4,
+    "description": "Visited sets in BFS/DFS use hash tables"
+  },
+  {
+    "from_concept": "cnn",
+    "to_concept": "gradient_descent",
+    "strength": 0.7,
+    "description": "CNN weight updates via gradient-based optimization"
+  },
+  {
+    "from_concept": "attention_mechanism",
+    "to_concept": "linear_transforms",
+    "strength": 0.6,
+    "description": "Query, key, value projections are linear transformations"
+  },
+  {
+    "from_concept": "attention_mechanism",
+    "to_concept": "gradient_descent",
+    "strength": 0.55,
+    "description": "Attention parameters learned via gradient descent"
+  },
+  {
+    "from_concept": "decision_trees",
+    "to_concept": "complexity_theory",
+    "strength": 0.4,
+    "description": "Tree depth and computational complexity analysis"
+  },
+  {
+    "from_concept": "ensemble_methods",
+    "to_concept": "statistics_basics",
+    "strength": 0.55,
+    "description": "Law of large numbers explains ensemble averaging"
+  },
+  {
+    "from_concept": "ensemble_methods",
+    "to_concept": "cross_validation",
+    "strength": 0.5,
+    "description": "Out-of-bag estimation as built-in cross-validation"
+  },
+  {
+    "from_concept": "numerical_methods",
+    "to_concept": "gradient_descent",
+    "strength": 0.55,
+    "description": "Newton's method as second-order gradient optimization"
+  },
+  {
+    "from_concept": "numerical_methods",
+    "to_concept": "linear_equations",
+    "strength": 0.6,
+    "description": "Gaussian elimination and LU decomposition for linear systems"
+  },
+  {
+    "from_concept": "differential_equations",
+    "to_concept": "multivar_calculus",
+    "strength": 0.7,
+    "description": "PDEs extend ODEs to multiple variables"
+  },
+  {
+    "from_concept": "differential_equations",
+    "to_concept": "numerical_methods",
+    "strength": 0.65,
+    "description": "Most ODEs solved numerically in practice"
+  },
+  {
+    "from_concept": "clustering",
+    "to_concept": "matrix_operations",
+    "strength": 0.45,
+    "description": "Spectral clustering uses eigendecomposition of Laplacian matrices"
+  },
+  {
+    "from_concept": "pca",
+    "to_concept": "gradient_descent",
+    "strength": 0.35,
+    "description": "Incremental PCA uses stochastic gradient updates"
+  },
+  {
+    "from_concept": "svm",
+    "to_concept": "linear_transforms",
+    "strength": 0.45,
+    "description": "Feature mapping to higher-dimensional spaces"
+  },
+  {
+    "from_concept": "transfer_learning",
+    "to_concept": "word_embeddings",
+    "strength": 0.5,
+    "description": "Pre-trained embeddings as transfer learning primitives"
+  },
+  {
+    "from_concept": "gan",
+    "to_concept": "statistics_basics",
+    "strength": 0.5,
+    "description": "FID and IS use statistical measures for evaluation"
+  },
+  {
+    "from_concept": "reinforcement_learning",
+    "to_concept": "backpropagation",
+    "strength": 0.55,
+    "description": "Deep RL uses backpropagation for policy network training"
+  }
+]

@@ -1,0 +1,203 @@
+[
+  {
+    "student_id": "priya",
+    "name": "Priya Sharma",
+    "language_pref": "hi",
+    "diagnostic_results": {
+      "svm": 0.3,
+      "kernel_methods": 0.4,
+      "lagrange_multipliers": 0.2,
+      "neural_networks": 0.7,
+      "gradient_descent": 0.6,
+      "linear_regression": 0.9,
+      "logistic_regression": 0.8,
+      "backpropagation": 0.7,
+      "eigenvalues": 0.5,
+      "multivar_calculus": 0.4
+    },
+    "gap_areas": [
+      {
+        "concept_id": "svm",
+        "score": 0.3,
+        "error_type": "conceptual",
+        "root_cause_chain": [
+          "svm",
+          "lagrange_multipliers",
+          "multivar_calculus"
+        ],
+        "impact_score": 2.0,
+        "confidence": 0.85
+      },
+      {
+        "concept_id": "kernel_methods",
+        "score": 0.4,
+        "error_type": "prerequisite_absence",
+        "root_cause_chain": ["kernel_methods", "linear_regression"],
+        "impact_score": 1.0,
+        "confidence": 0.8
+      },
+      {
+        "concept_id": "lagrange_multipliers",
+        "score": 0.2,
+        "error_type": "prerequisite_absence",
+        "root_cause_chain": [
+          "lagrange_multipliers",
+          "multivar_calculus",
+          "matrix_operations"
+        ],
+        "impact_score": 3.0,
+        "confidence": 0.9
+      },
+      {
+        "concept_id": "multivar_calculus",
+        "score": 0.4,
+        "error_type": "conceptual",
+        "root_cause_chain": ["multivar_calculus", "single_var_calculus"],
+        "impact_score": 5.0,
+        "confidence": 0.85
+      },
+      {
+        "concept_id": "eigenvalues",
+        "score": 0.5,
+        "error_type": "procedural",
+        "root_cause_chain": ["eigenvalues", "matrix_operations"],
+        "impact_score": 2.0,
+        "confidence": 0.75
+      }
+    ],
+    "last_reinforced": {
+      "linear_regression": "2025-12-01T10:00:00+00:00",
+      "logistic_regression": "2025-11-15T10:00:00+00:00",
+      "gradient_descent": "2025-11-01T10:00:00+00:00",
+      "matrix_operations": "2025-09-01T10:00:00+00:00",
+      "probability_basics": "2025-10-01T10:00:00+00:00",
+      "eigenvalues": "2025-08-15T10:00:00+00:00"
+    },
+    "created_at": "2026-01-15T08:00:00+00:00"
+  },
+  {
+    "student_id": "rahul",
+    "name": "Rahul Verma",
+    "language_pref": "en",
+    "diagnostic_results": {
+      "dynamic_programming": 0.3,
+      "greedy_algorithms": 0.4,
+      "graph_algorithms": 0.5,
+      "sorting_searching": 0.9,
+      "trees_graphs": 0.8,
+      "data_structures_basics": 0.95,
+      "linear_regression": 0.9,
+      "gradient_descent": 0.85
+    },
+    "gap_areas": [
+      {
+        "concept_id": "dynamic_programming",
+        "score": 0.3,
+        "error_type": "conceptual",
+        "root_cause_chain": ["dynamic_programming", "trees_graphs"],
+        "impact_score": 3.0,
+        "confidence": 0.8
+      },
+      {
+        "concept_id": "greedy_algorithms",
+        "score": 0.4,
+        "error_type": "conceptual",
+        "root_cause_chain": ["greedy_algorithms", "sorting_searching"],
+        "impact_score": 1.0,
+        "confidence": 0.8
+      },
+      {
+        "concept_id": "graph_algorithms",
+        "score": 0.5,
+        "error_type": "procedural",
+        "root_cause_chain": ["graph_algorithms", "trees_graphs"],
+        "impact_score": 2.0,
+        "confidence": 0.75
+      }
+    ],
+    "last_reinforced": {
+      "sorting_searching": "2026-01-10T10:00:00+00:00",
+      "trees_graphs": "2025-12-20T10:00:00+00:00",
+      "data_structures_basics": "2026-01-15T10:00:00+00:00"
+    },
+    "created_at": "2026-01-20T08:00:00+00:00"
+  },
+  {
+    "student_id": "ananya",
+    "name": "Ananya Gupta",
+    "language_pref": "en",
+    "diagnostic_results": {
+      "matrix_operations": 0.4,
+      "eigenvalues": 0.3,
+      "multivar_calculus": 0.3,
+      "probability_basics": 0.5,
+      "linear_equations": 0.7,
+      "single_var_calculus": 0.6,
+      "linear_regression": 0.4,
+      "gradient_descent": 0.3
+    },
+    "gap_areas": [
+      {
+        "concept_id": "matrix_operations",
+        "score": 0.4,
+        "error_type": "procedural",
+        "root_cause_chain": ["matrix_operations", "linear_equations"],
+        "impact_score": 8.0,
+        "confidence": 0.85
+      },
+      {
+        "concept_id": "eigenvalues",
+        "score": 0.3,
+        "error_type": "prerequisite_absence",
+        "root_cause_chain": [
+          "eigenvalues",
+          "matrix_operations",
+          "linear_equations"
+        ],
+        "impact_score": 4.0,
+        "confidence": 0.9
+      },
+      {
+        "concept_id": "multivar_calculus",
+        "score": 0.3,
+        "error_type": "prerequisite_absence",
+        "root_cause_chain": ["multivar_calculus", "single_var_calculus"],
+        "impact_score": 5.0,
+        "confidence": 0.85
+      },
+      {
+        "concept_id": "probability_basics",
+        "score": 0.5,
+        "error_type": "conceptual",
+        "root_cause_chain": ["probability_basics", "single_var_calculus"],
+        "impact_score": 3.0,
+        "confidence": 0.8
+      },
+      {
+        "concept_id": "linear_regression",
+        "score": 0.4,
+        "error_type": "prerequisite_absence",
+        "root_cause_chain": [
+          "linear_regression",
+          "multivar_calculus",
+          "matrix_operations"
+        ],
+        "impact_score": 2.0,
+        "confidence": 0.8
+      },
+      {
+        "concept_id": "gradient_descent",
+        "score": 0.3,
+        "error_type": "prerequisite_absence",
+        "root_cause_chain": ["gradient_descent", "multivar_calculus"],
+        "impact_score": 4.0,
+        "confidence": 0.85
+      }
+    ],
+    "last_reinforced": {
+      "linear_equations": "2025-09-01T10:00:00+00:00",
+      "single_var_calculus": "2025-08-15T10:00:00+00:00"
+    },
+    "created_at": "2026-02-01T08:00:00+00:00"
+  }
+]

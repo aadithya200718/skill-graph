@@ -1,0 +1,502 @@
+[
+  {
+    "concept_id": "linear_equations",
+    "name": "Linear Equations",
+    "description": "Systems of linear equations and their solutions using substitution, elimination, and matrix methods. Foundation of all linear algebra concepts.",
+    "semester": 1,
+    "subject": "Mathematics I",
+    "difficulty": 2,
+    "category": "linear_algebra",
+    "estimated_hours": 1.5
+  },
+  {
+    "concept_id": "matrix_operations",
+    "name": "Matrix Operations",
+    "description": "Addition, multiplication, transpose, and inverse of matrices. Essential for representing and solving systems of equations.",
+    "semester": 1,
+    "subject": "Mathematics I",
+    "difficulty": 2,
+    "category": "linear_algebra",
+    "estimated_hours": 2.0
+  },
+  {
+    "concept_id": "determinants",
+    "name": "Determinants",
+    "description": "Computing determinants using cofactor expansion and row reduction. Used to check matrix invertibility.",
+    "semester": 1,
+    "subject": "Mathematics I",
+    "difficulty": 2,
+    "category": "linear_algebra",
+    "estimated_hours": 1.5
+  },
+  {
+    "concept_id": "vector_spaces",
+    "name": "Vector Spaces",
+    "description": "Vector spaces, subspaces, span, and linear independence. Abstract framework for linear algebra.",
+    "semester": 1,
+    "subject": "Mathematics I",
+    "difficulty": 3,
+    "category": "linear_algebra",
+    "estimated_hours": 2.5
+  },
+  {
+    "concept_id": "single_var_calculus",
+    "name": "Single Variable Calculus",
+    "description": "Limits, derivatives, and integrals of single-variable functions. Building block for multivariable calculus.",
+    "semester": 1,
+    "subject": "Mathematics I",
+    "difficulty": 2,
+    "category": "calculus",
+    "estimated_hours": 2.0
+  },
+
+  {
+    "concept_id": "eigenvalues",
+    "name": "Eigenvalues and Eigenvectors",
+    "description": "Finding eigenvalues and eigenvectors of matrices. Central to PCA, spectral methods, and stability analysis.",
+    "semester": 2,
+    "subject": "Mathematics II",
+    "difficulty": 3,
+    "category": "linear_algebra",
+    "estimated_hours": 3.0
+  },
+  {
+    "concept_id": "multivar_calculus",
+    "name": "Multivariable Calculus",
+    "description": "Partial derivatives, gradients, Jacobians, and Hessians. Required for optimization and machine learning.",
+    "semester": 2,
+    "subject": "Mathematics II",
+    "difficulty": 3,
+    "category": "calculus",
+    "estimated_hours": 3.0
+  },
+  {
+    "concept_id": "probability_basics",
+    "name": "Probability Fundamentals",
+    "description": "Probability axioms, conditional probability, Bayes theorem, and common distributions.",
+    "semester": 2,
+    "subject": "Mathematics II",
+    "difficulty": 2,
+    "category": "probability",
+    "estimated_hours": 2.0
+  },
+  {
+    "concept_id": "statistics_basics",
+    "name": "Statistical Inference",
+    "description": "Hypothesis testing, confidence intervals, maximum likelihood estimation. Foundation for ML evaluation.",
+    "semester": 2,
+    "subject": "Mathematics II",
+    "difficulty": 3,
+    "category": "probability",
+    "estimated_hours": 2.5
+  },
+  {
+    "concept_id": "differential_equations",
+    "name": "Ordinary Differential Equations",
+    "description": "Solving first and second order ODEs. Appears in control systems and dynamical models.",
+    "semester": 2,
+    "subject": "Mathematics II",
+    "difficulty": 3,
+    "category": "calculus",
+    "estimated_hours": 2.5
+  },
+
+  {
+    "concept_id": "lagrange_multipliers",
+    "name": "Lagrange Multipliers",
+    "description": "Method for constrained optimization using Lagrangian functions. Core to SVM dual formulation and many ML problems.",
+    "semester": 3,
+    "subject": "Mathematics III",
+    "difficulty": 4,
+    "category": "optimization",
+    "estimated_hours": 3.0
+  },
+  {
+    "concept_id": "convex_optimization",
+    "name": "Convex Optimization",
+    "description": "Convex sets, convex functions, and optimization algorithms for convex problems. Guarantees global optimum.",
+    "semester": 3,
+    "subject": "Mathematics III",
+    "difficulty": 4,
+    "category": "optimization",
+    "estimated_hours": 3.5
+  },
+  {
+    "concept_id": "linear_transforms",
+    "name": "Linear Transformations",
+    "description": "Mappings between vector spaces that preserve vector addition and scalar multiplication.",
+    "semester": 3,
+    "subject": "Mathematics III",
+    "difficulty": 3,
+    "category": "linear_algebra",
+    "estimated_hours": 2.0
+  },
+  {
+    "concept_id": "numerical_methods",
+    "name": "Numerical Methods",
+    "description": "Iterative algorithms for root finding, interpolation, and numerical integration. Practical computation skills.",
+    "semester": 3,
+    "subject": "Mathematics III",
+    "difficulty": 3,
+    "category": "numerical",
+    "estimated_hours": 2.0
+  },
+
+  {
+    "concept_id": "data_structures_basics",
+    "name": "Arrays, Linked Lists, Stacks, Queues",
+    "description": "Fundamental data structures with constant and linear time operations. Every algorithm builds on these.",
+    "semester": 3,
+    "subject": "Data Structures",
+    "difficulty": 2,
+    "category": "data_structures",
+    "estimated_hours": 2.0
+  },
+  {
+    "concept_id": "trees_graphs",
+    "name": "Trees and Graphs",
+    "description": "Binary trees, BSTs, graph representation, BFS, DFS. Core to many search and traversal problems.",
+    "semester": 3,
+    "subject": "Data Structures",
+    "difficulty": 3,
+    "category": "data_structures",
+    "estimated_hours": 3.0
+  },
+  {
+    "concept_id": "hashing",
+    "name": "Hash Tables",
+    "description": "Hash functions, collision resolution, and amortized O(1) lookup. Used extensively in practice.",
+    "semester": 3,
+    "subject": "Data Structures",
+    "difficulty": 2,
+    "category": "data_structures",
+    "estimated_hours": 1.5
+  },
+
+  {
+    "concept_id": "sorting_searching",
+    "name": "Sorting and Searching Algorithms",
+    "description": "Merge sort, quicksort, binary search, and their time complexity analysis.",
+    "semester": 4,
+    "subject": "Algorithms",
+    "difficulty": 3,
+    "category": "algorithms",
+    "estimated_hours": 2.0
+  },
+  {
+    "concept_id": "dynamic_programming",
+    "name": "Dynamic Programming",
+    "description": "Solving optimization problems by breaking them into overlapping subproblems. Key technique for competitive programming.",
+    "semester": 4,
+    "subject": "Algorithms",
+    "difficulty": 4,
+    "category": "algorithms",
+    "estimated_hours": 4.0
+  },
+  {
+    "concept_id": "greedy_algorithms",
+    "name": "Greedy Algorithms",
+    "description": "Making locally optimal choices at each step. Works for specific problem structures like MST and Huffman coding.",
+    "semester": 4,
+    "subject": "Algorithms",
+    "difficulty": 3,
+    "category": "algorithms",
+    "estimated_hours": 2.0
+  },
+  {
+    "concept_id": "graph_algorithms",
+    "name": "Graph Algorithms",
+    "description": "Dijkstra, Bellman-Ford, Floyd-Warshall, topological sort. Essential for network and path problems.",
+    "semester": 4,
+    "subject": "Algorithms",
+    "difficulty": 3,
+    "category": "algorithms",
+    "estimated_hours": 3.0
+  },
+  {
+    "concept_id": "complexity_theory",
+    "name": "Time and Space Complexity",
+    "description": "Big-O notation, worst case analysis, NP-completeness basics. Framework for evaluating algorithm efficiency.",
+    "semester": 4,
+    "subject": "Algorithms",
+    "difficulty": 3,
+    "category": "algorithms",
+    "estimated_hours": 2.0
+  },
+
+  {
+    "concept_id": "oop_concepts",
+    "name": "Object-Oriented Programming",
+    "description": "Encapsulation, inheritance, polymorphism, and design patterns. Standard paradigm for large codebases.",
+    "semester": 4,
+    "subject": "Object-Oriented Design",
+    "difficulty": 2,
+    "category": "software_engineering",
+    "estimated_hours": 2.0
+  },
+  {
+    "concept_id": "dbms_basics",
+    "name": "Relational Database Fundamentals",
+    "description": "ER diagrams, normalization, SQL queries, and ACID properties. Every backend system uses databases.",
+    "semester": 4,
+    "subject": "DBMS",
+    "difficulty": 2,
+    "category": "databases",
+    "estimated_hours": 2.5
+  },
+  {
+    "concept_id": "os_basics",
+    "name": "Operating System Concepts",
+    "description": "Process scheduling, memory management, file systems, and concurrency. Foundation for systems programming.",
+    "semester": 4,
+    "subject": "Operating Systems",
+    "difficulty": 3,
+    "category": "systems",
+    "estimated_hours": 2.5
+  },
+
+  {
+    "concept_id": "linear_regression",
+    "name": "Linear Regression",
+    "description": "Fitting a linear model to data using least squares. The simplest and most interpretable ML model.",
+    "semester": 5,
+    "subject": "Machine Learning",
+    "difficulty": 2,
+    "category": "ml_basics",
+    "estimated_hours": 2.0
+  },
+  {
+    "concept_id": "logistic_regression",
+    "name": "Logistic Regression",
+    "description": "Binary classification using sigmoid function and cross-entropy loss. Gateway to understanding neural networks.",
+    "semester": 5,
+    "subject": "Machine Learning",
+    "difficulty": 3,
+    "category": "ml_basics",
+    "estimated_hours": 2.5
+  },
+  {
+    "concept_id": "gradient_descent",
+    "name": "Gradient Descent",
+    "description": "Iterative optimization by moving in the direction of steepest descent. The engine behind most ML training.",
+    "semester": 5,
+    "subject": "Machine Learning",
+    "difficulty": 3,
+    "category": "optimization",
+    "estimated_hours": 2.5
+  },
+  {
+    "concept_id": "regularization",
+    "name": "Regularization (L1/L2)",
+    "description": "Preventing overfitting by adding penalty terms to the loss function. L1 for sparsity, L2 for smoothness.",
+    "semester": 5,
+    "subject": "Machine Learning",
+    "difficulty": 3,
+    "category": "ml_basics",
+    "estimated_hours": 2.0
+  },
+  {
+    "concept_id": "bias_variance",
+    "name": "Bias-Variance Tradeoff",
+    "description": "Understanding model complexity through the lens of underfitting vs overfitting. Central to model selection.",
+    "semester": 5,
+    "subject": "Machine Learning",
+    "difficulty": 3,
+    "category": "ml_basics",
+    "estimated_hours": 1.5
+  },
+  {
+    "concept_id": "decision_trees",
+    "name": "Decision Trees",
+    "description": "Tree-based classification using information gain or Gini impurity. Interpretable and fast to train.",
+    "semester": 5,
+    "subject": "Machine Learning",
+    "difficulty": 2,
+    "category": "ml_basics",
+    "estimated_hours": 2.0
+  },
+  {
+    "concept_id": "ensemble_methods",
+    "name": "Ensemble Methods (Random Forest, Boosting)",
+    "description": "Combining multiple weak learners for stronger predictions. Random Forest for variance, Boosting for bias.",
+    "semester": 5,
+    "subject": "Machine Learning",
+    "difficulty": 3,
+    "category": "ml_basics",
+    "estimated_hours": 2.5
+  },
+  {
+    "concept_id": "cross_validation",
+    "name": "Cross-Validation",
+    "description": "K-fold and stratified validation techniques for reliable model evaluation without data leakage.",
+    "semester": 5,
+    "subject": "Machine Learning",
+    "difficulty": 2,
+    "category": "ml_basics",
+    "estimated_hours": 1.0
+  },
+
+  {
+    "concept_id": "kernel_methods",
+    "name": "Kernel Methods",
+    "description": "The kernel trick maps data to higher dimensions without explicit computation. Enables non-linear SVMs.",
+    "semester": 6,
+    "subject": "Machine Learning",
+    "difficulty": 4,
+    "category": "ml_advanced",
+    "estimated_hours": 3.0
+  },
+  {
+    "concept_id": "svm",
+    "name": "Support Vector Machines",
+    "description": "Maximum margin classifier using support vectors. Formulated as a constrained optimization problem with Lagrangian duality.",
+    "semester": 6,
+    "subject": "Machine Learning",
+    "difficulty": 4,
+    "category": "ml_advanced",
+    "estimated_hours": 3.5
+  },
+  {
+    "concept_id": "pca",
+    "name": "Principal Component Analysis",
+    "description": "Dimensionality reduction by projecting data onto eigenvectors of the covariance matrix.",
+    "semester": 6,
+    "subject": "Machine Learning",
+    "difficulty": 3,
+    "category": "ml_advanced",
+    "estimated_hours": 2.5
+  },
+  {
+    "concept_id": "clustering",
+    "name": "Clustering (K-Means, DBSCAN)",
+    "description": "Unsupervised grouping of data points. K-Means minimizes within-cluster variance, DBSCAN finds density-based clusters.",
+    "semester": 6,
+    "subject": "Machine Learning",
+    "difficulty": 3,
+    "category": "ml_advanced",
+    "estimated_hours": 2.0
+  },
+  {
+    "concept_id": "neural_networks",
+    "name": "Neural Networks",
+    "description": "Multilayer perceptrons with backpropagation. Universal function approximators when given enough capacity.",
+    "semester": 6,
+    "subject": "Machine Learning",
+    "difficulty": 4,
+    "category": "ml_advanced",
+    "estimated_hours": 4.0
+  },
+  {
+    "concept_id": "backpropagation",
+    "name": "Backpropagation",
+    "description": "Computing gradients through a computation graph using the chain rule. The core training algorithm for neural networks.",
+    "semester": 6,
+    "subject": "Machine Learning",
+    "difficulty": 4,
+    "category": "ml_advanced",
+    "estimated_hours": 3.0
+  },
+
+  {
+    "concept_id": "cnn",
+    "name": "Convolutional Neural Networks",
+    "description": "Neural networks with convolutional layers for spatial feature extraction. Dominant in image recognition.",
+    "semester": 7,
+    "subject": "Deep Learning",
+    "difficulty": 4,
+    "category": "deep_learning",
+    "estimated_hours": 3.5
+  },
+  {
+    "concept_id": "rnn_lstm",
+    "name": "Recurrent Neural Networks and LSTM",
+    "description": "Sequential models with memory. LSTM gates solve the vanishing gradient problem for long sequences.",
+    "semester": 7,
+    "subject": "Deep Learning",
+    "difficulty": 4,
+    "category": "deep_learning",
+    "estimated_hours": 3.5
+  },
+  {
+    "concept_id": "attention_mechanism",
+    "name": "Attention Mechanism",
+    "description": "Weighted focus on relevant parts of input sequences. Foundation of the Transformer architecture.",
+    "semester": 7,
+    "subject": "Deep Learning",
+    "difficulty": 4,
+    "category": "deep_learning",
+    "estimated_hours": 3.0
+  },
+  {
+    "concept_id": "transformers",
+    "name": "Transformer Architecture",
+    "description": "Self-attention based architecture that replaced RNNs for sequence tasks. Powers all modern language models.",
+    "semester": 7,
+    "subject": "Deep Learning",
+    "difficulty": 5,
+    "category": "deep_learning",
+    "estimated_hours": 4.0
+  },
+  {
+    "concept_id": "transfer_learning",
+    "name": "Transfer Learning",
+    "description": "Using pre-trained models on new tasks. Fine-tuning saves compute and improves performance on small datasets.",
+    "semester": 7,
+    "subject": "Deep Learning",
+    "difficulty": 3,
+    "category": "deep_learning",
+    "estimated_hours": 2.0
+  },
+
+  {
+    "concept_id": "word_embeddings",
+    "name": "Word Embeddings (Word2Vec, GloVe)",
+    "description": "Dense vector representations of words that capture semantic relationships. Foundation for NLP.",
+    "semester": 7,
+    "subject": "NLP",
+    "difficulty": 3,
+    "category": "nlp",
+    "estimated_hours": 2.5
+  },
+  {
+    "concept_id": "text_classification",
+    "name": "Text Classification",
+    "description": "Assigning categories to text using bag-of-words, TF-IDF, or neural methods. Spam detection, sentiment analysis.",
+    "semester": 7,
+    "subject": "NLP",
+    "difficulty": 3,
+    "category": "nlp",
+    "estimated_hours": 2.0
+  },
+
+  {
+    "concept_id": "gan",
+    "name": "Generative Adversarial Networks",
+    "description": "Two-network architecture where a generator and discriminator compete. Used for image synthesis and data augmentation.",
+    "semester": 8,
+    "subject": "Advanced ML",
+    "difficulty": 5,
+    "category": "deep_learning",
+    "estimated_hours": 3.5
+  },
+  {
+    "concept_id": "reinforcement_learning",
+    "name": "Reinforcement Learning Basics",
+    "description": "Agent learns by interacting with an environment to maximize cumulative reward. Q-learning and policy gradient methods.",
+    "semester": 8,
+    "subject": "Advanced ML",
+    "difficulty": 5,
+    "category": "ml_advanced",
+    "estimated_hours": 4.0
+  },
+  {
+    "concept_id": "graph_neural_networks",
+    "name": "Graph Neural Networks",
+    "description": "Neural networks that operate on graph-structured data. Message passing between nodes for node and graph classification.",
+    "semester": 8,
+    "subject": "Advanced ML",
+    "difficulty": 5,
+    "category": "deep_learning",
+    "estimated_hours": 3.5
+  }
+]

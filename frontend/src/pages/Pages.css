@@ -1,0 +1,620 @@
+.page-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+}
+
+.page-subtitle {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  margin-bottom: 28px;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  letter-spacing: -0.01em;
+}
+
+/* Dashboard */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.stat-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.stat-label {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+}
+
+.action-grid {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.decay-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.decay-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 18px;
+}
+
+.decay-concept {
+  flex: 1;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/* System Status */
+.system-status-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.system-status-card {
+  padding: 18px 20px;
+}
+
+.system-status-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.82rem;
+}
+
+.system-status-row:last-child {
+  border-bottom: none;
+}
+
+.system-status-label {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.system-status-indicator {
+  font-weight: 500;
+  font-size: 0.78rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.system-status-indicator::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.system-status-indicator.connected::before {
+  background: var(--mastered-green);
+  box-shadow: 0 0 4px var(--mastered-green);
+}
+
+.system-status-indicator.disconnected::before {
+  background: var(--gap-red);
+  box-shadow: 0 0 4px var(--gap-red);
+}
+
+.system-agent-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.system-agent-row:last-child {
+  border-bottom: none;
+}
+
+/* Quiz Page */
+.quiz-container {
+  max-width: 720px;
+}
+
+.quiz-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.quiz-subject-select {
+  min-width: 200px;
+}
+
+.quiz-question-card {
+  padding: 32px;
+  margin-bottom: 24px;
+}
+
+.quiz-question-number {
+  font-size: 0.78rem;
+  color: var(--text-tertiary);
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+}
+
+.quiz-question-text {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quiz-option {
+  padding: 14px 18px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: var(--bg-secondary);
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-align: left;
+  transition: all var(--transition-fast);
+}
+
+.quiz-option:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-card-hover);
+}
+
+.quiz-option.selected {
+  border-color: var(--accent);
+  background: var(--accent-muted);
+}
+
+.quiz-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Results */
+.results-container {
+  max-width: 720px;
+}
+
+.results-summary {
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+.score-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.root-cause-card {
+  padding: 20px;
+  margin-top: 20px;
+  border-left: 3px solid var(--gap-red);
+}
+
+.root-chain {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.root-chain-node {
+  padding: 4px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  font-weight: 500;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+}
+
+.root-chain-node.is-root {
+  background: var(--gap-red-muted);
+  border-color: rgba(239, 68, 68, 0.3);
+  color: var(--gap-red);
+}
+
+.root-chain-arrow {
+  color: var(--text-tertiary);
+  font-size: 0.8rem;
+}
+
+/* Graph Page */
+.graph-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 140px);
+}
+
+.graph-controls {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.graph-svg-container {
+  flex: 1;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  position: relative;
+}
+
+.graph-legend {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 12px 16px;
+  display: flex;
+  gap: 16px;
+  font-size: 0.75rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-secondary);
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.graph-tooltip {
+  position: absolute;
+  padding: 12px 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  pointer-events: none;
+  font-size: 0.8rem;
+  z-index: 20;
+  max-width: 260px;
+}
+
+.graph-tooltip-title {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.graph-tooltip-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--text-secondary);
+  margin-top: 3px;
+}
+
+/* Graph Side Panel (click-to-open) */
+.graph-side-panel {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 260px;
+  background: var(--bg-secondary);
+  border-left: 1px solid var(--border);
+  padding: 18px;
+  overflow-y: auto;
+  z-index: 20;
+  font-size: 0.85rem;
+}
+
+/* Tech Process Steps */
+.tech-process {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 16px 0;
+}
+
+.tech-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 10px 0;
+  font-size: 0.82rem;
+  position: relative;
+}
+
+.tech-step:not(:last-child) {
+  border-left: 2px solid var(--border);
+  margin-left: 7px;
+  padding-left: 22px;
+}
+
+.tech-step:last-child {
+  margin-left: 7px;
+  padding-left: 22px;
+}
+
+.tech-step-dot {
+  position: absolute;
+  left: -1px;
+  top: 12px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 0.55rem;
+}
+
+.tech-step-dot.complete {
+  background: var(--mastered-green);
+  color: white;
+}
+
+.tech-step-dot.active {
+  background: var(--accent);
+  color: white;
+}
+
+.tech-step-label {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.tech-step-detail {
+  font-size: 0.75rem;
+  color: var(--text-tertiary);
+  margin-top: 2px;
+}
+
+/* Remediation Page */
+.remediation-container {
+  max-width: 800px;
+}
+
+.schedule-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.schedule-day {
+  position: relative;
+  padding-left: 28px;
+}
+
+.schedule-day::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--border);
+}
+
+.schedule-day-marker {
+  position: absolute;
+  left: 2px;
+  top: 4px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 2px solid var(--bg-primary);
+}
+
+.schedule-day-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.schedule-day-num {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.schedule-day-date {
+  color: var(--text-tertiary);
+  font-size: 0.78rem;
+}
+
+.schedule-day-topics {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.lesson-card {
+  margin-top: 16px;
+  padding: 24px;
+}
+
+.lesson-section {
+  margin-top: 16px;
+  padding: 14px 18px;
+  border-radius: var(--radius-md);
+}
+
+.lesson-section-title {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.lesson-section-wrong {
+  background: var(--decaying-amber-muted);
+}
+
+.lesson-section-correct {
+  background: var(--mastered-green-muted);
+}
+
+.lesson-section-analogy {
+  background: var(--accent-muted);
+}
+
+.lesson-practice {
+  margin-top: 16px;
+  padding: 14px 18px;
+  background: var(--bg-elevated);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+}
+
+.lesson-practice-toggle {
+  font-size: 0.8rem;
+  color: var(--accent);
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+/* Triage Page */
+.triage-container {
+  max-width: 800px;
+}
+
+.triage-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.triage-summary {
+  padding: 20px 24px;
+  margin-bottom: 20px;
+}
+
+.triage-summary-stat {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.triage-summary-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.skipped-section {
+  margin-top: 24px;
+}
+
+.skipped-card {
+  padding: 14px 18px;
+  background: var(--gap-red-muted);
+  border: 1px solid rgba(239, 68, 68, 0.15);
+  margin-bottom: 8px;
+}
+
+.skipped-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skipped-reason {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-top: 4px;
+}
+
+/* Loading */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 60px;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+/* Empty state */
+.empty-state {
+  text-align: center;
+  padding: 60px 40px;
+  color: var(--text-tertiary);
+}
+
+.empty-state h3 {
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+  font-weight: 500;
+}
