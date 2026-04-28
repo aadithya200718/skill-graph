@@ -39,7 +39,7 @@ npm run dev
 
 Open http://localhost:5173
 
-### Demo Mode
+## Demo Mode
 
 1. Click "Demo Mode" toggle in the header
 2. Select "Priya Sharma" from the dropdown
