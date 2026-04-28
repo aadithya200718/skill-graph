@@ -21,7 +21,7 @@ AI-powered diagnostic learning platform that finds and fixes invisible prerequis
 
 ### Backend
 
-```bash
+``bash
 cd backend
 cp .env.example .env
 # Edit .env with your Neo4j and Gemini credentials
