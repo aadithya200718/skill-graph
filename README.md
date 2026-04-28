@@ -2,7 +2,7 @@
 
 AI-powered diagnostic learning platform that finds and fixes invisible prerequisite gaps using knowledge graph analysis.
 
-## Architecture
+# Architecture
 
 - **Backend**: FastAPI + Python 3.11
 - **Graph DB**: Neo4j Aura (free tier)
